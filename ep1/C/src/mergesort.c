@@ -1,7 +1,7 @@
-/* Merge sort in C */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 void Merge(int *tmp, int *a, int lena, int *d, int lend) {
 	int pa,pd,pt;
 	pa = 0; pd = 0; pt = 0;
