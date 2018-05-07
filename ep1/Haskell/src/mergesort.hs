@@ -2,6 +2,8 @@ import Control.Exception
 import Data.Time
 
 main = do a <- readFile "raw.dat"
+--IO String -> String
+-- words
           begin <- getCurrentTime
           evaluate (mergesort ((atoi (words a))))
           end <- getCurrentTime
